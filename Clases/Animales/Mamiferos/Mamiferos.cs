@@ -1,6 +1,6 @@
 namespace Clases
 {
-    class Mamiferos
+     class Mamiferos : Animal
     {
         //public Mamiferos()
         //{
@@ -12,11 +12,6 @@ namespace Clases
             nombreSerVivo = nombre;
             numeroDeOjos = ojos;
         }
-        protected void Respirar()
-        {
-            WriteLine("Soy capaz de respirar");
-        }
-
         public virtual void Pensar()
         {
             WriteLine("Pensamiento basico e instintivo");
@@ -27,9 +22,9 @@ namespace Clases
             WriteLine("Cuido de mis crias hasta que se valgan por si mismos");
         }
 
-        public void getNombre()
+        public override void getNombre()
         {
-            WriteLine($"El nombre del ser vivo es: {nombreSerVivo}");
+            WriteLine($"El nombre del mamifero es: {nombreSerVivo}");
         }
 
         public void getOjos()

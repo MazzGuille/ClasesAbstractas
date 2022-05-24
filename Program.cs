@@ -9,14 +9,16 @@ WriteLine($"Epona tiene {Icaballo11.NumeroPatas()} patas");
 WriteLine($"Epona salta con {Icaballo12.NumeroPatas()} patas");
 WriteLine($"Negra tiene {perro1.NumeroPatas()} patas");
 
+Lagartijas lagarto1 = new("Sanke");
+Humanos humano1 = new("Guille", 2);
 
+lagarto1.Respirar();
+lagarto1.getNombre();
+humano1.Respirar();
+humano1.getNombre();
 
 
 
 WriteLine("El programa ha finalizado, presiona cualquier tecla para continuar");
-for (int i = 0; i < 5; i++)
-{
-
-}
 ReadKey();
 Clear();
