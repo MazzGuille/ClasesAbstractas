@@ -1,12 +1,12 @@
 namespace Clases
 {
-    class Gorilas : Mamiferos, IMamiferosTerrestres
+    sealed class Gorilas : Mamiferos, IMamiferosTerrestres
     {
         public Gorilas(String nombreGorila, int cantidadDeOjos): base(nombreGorila, cantidadDeOjos)
         {
 
         }
-       public void Trepar()
+        public void Trepar()
        {
            WriteLine("Soy capaz de trepar");
        } 

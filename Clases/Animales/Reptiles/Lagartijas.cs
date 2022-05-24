@@ -4,14 +4,14 @@
     { 
         public Lagartijas(String nombre)
         {
-            nombreReptil = nombre;
+            nombreLagarto = nombre;
         }
         
         public override void getNombre()
         {
-            WriteLine($"El nombre de la lagartija es {nombreReptil}");
+            WriteLine($"El nombre de la lagartija es {nombreLagarto}");
         }
 
-        private String nombreReptil;
+        private String nombreLagarto;
     }
 }
